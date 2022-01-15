@@ -1,7 +1,8 @@
 body {
     background-image: url(../images/final-welding-background.jpeg);
-    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
     color: azure;
 }
 
@@ -11,7 +12,7 @@ h1, h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #6A040F;
+    color: #6a040f;
 }
 
 #logo {
@@ -35,7 +36,7 @@ h1, h2 {
     float: right;
     list-style-type: none;
     margin-right: 30px;
-    color: #6A040F;
+    color: #6a040f;
 }
 
 #menu a {
@@ -53,11 +54,22 @@ h1, h2 {
 
 
 
+/* welding cards */
+
+#mag-img, #mig-img, #tig-img {
+    background-color: #2c0703;
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    margin-top: 600px;
+}
+
+
+
+
 /* footer */
 
-footer {
-    height: 150px;
-}
+footer
 
 .social-networks {
     text-align: center;
