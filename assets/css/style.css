@@ -1,4 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300&family=Rubik:wght@500&display=swap');
+
+
+
 body {
+    font-family: Karla, sans-serif;
     background-image: url(../images/final-welding-background.jpeg);
     background-position: center;
     background-repeat: no-repeat;
@@ -9,7 +14,7 @@ body {
 /* headings and logo */
 
 h1, h2 {
-    font-family: Oswald, sans-serif;
+    font-family: Rubik, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #6a040f;
@@ -53,6 +58,13 @@ h1, h2 {
 }
 
 
+/*About section*/
+
+#about-section {
+    background-color: rgba(44,	7,	3, 0.4);
+    margin-top: 200px;
+}
+
 
 /* welding cards */
 
@@ -61,7 +73,7 @@ h1, h2 {
     position: relative;
     text-align: center;
     display: inline-block;
-    margin-top: 600px;
+    margin: 200px;
 }
 
 
