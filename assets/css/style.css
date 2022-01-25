@@ -25,7 +25,10 @@ h1 {
     font-size: 280%;
     margin-left: 30px;
     color: #A44200;
-}
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    }
 
 a {
     color: #e09f3e;
@@ -55,7 +58,9 @@ a {
     color: inherit;
 }
 
-#menu a:hover {
+
+
+a:hover {
     border-bottom: 1px solid white;
 }
 
@@ -90,6 +95,15 @@ a {
 }
 
 /* welding equipment */
+
+.card-img-top {
+    width: 100%;
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
+    height: 300px;
+    object-fit: cover;
+    object-position: top;
+    }
 
 #welding-equipment-about  {
     background-color: rgba(164, 66, 0, 0.6);
@@ -205,3 +219,6 @@ footer
     background-color: #fafafa;
     color:  #e09f3e;
 }
+
+/* Media Queries*/
+
