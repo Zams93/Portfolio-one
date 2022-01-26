@@ -6,41 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Welding For Novices for beginner welders looking to start their journey in welding">
     <meta name="keywords" content="welding, welding for beginners, information about welding">
-
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/style.css" />
     <title>Welding For Novices</title>
 </head>
 <body>
-   
+   <div class="container">
   <header>
-    <a href="index.html">
-      <h1 id="logo">Welding For Novices</h1>
-  </a>
-  <nav>
-      <ul id="menu">
-          <li>
-              <a href="sign-up.html" class="active">Sign Up</a>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <h1 class="text-custom">Welding For Novices</h1>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="welding-equipment.html">Welding Equipment</a>
           </li>
-          <li>
-              <a href="welding-equipment.html">Welding Equipment</a>
-          </li>
-          <li>
-              <a href="index.html">About</a>
-          </li>
-      </ul>
-  </nav>
+            <li class="nav-item active">
+                <a class="nav-link" href="sign-up.html">Sign Up</a>
+            </li>
+        </ul>
+    </div>
+</nav>
 </header>
-
-<div id="newsletter-about">
-<h2>Our Weekly Newsletter</h2>
+<div class="row">
+    <class="col-12" id="newsletter-about"> <h2>Our Weekly Newsletter</h2>
 <p>We have a weekly newsletter to keep up with the latest news for welding. 
     From job opportunities to the new tool reviews and just a general networking platform for everything welding.
     It is a great way to keep up to date and get to know other stories of welders and how they found themselves here too,
     to sign up just fill out the form below.</p>
 </div>
 
-
+<div class="row">
+    <div class="col-12">
 <section class="form-section">
     <form class="signup-form" method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
         <h2>Sign up to our weekly newsletter</h2>
@@ -64,40 +66,31 @@
         <input class="join-button" type="submit" value="Sign up now">
         </form>
     </section>
-
+    </div>
+</div>
     <footer>
-        <ul class="social-networks">
-            <li>
-                <a href="https://facebook.com" target= "_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
-            </li>
-            <li>
-                <a href="https://twitter.com" target= "_blank" rel="noopener" aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter-square"></i></i></a>
-            </li>
-            <li>
-                <a href="https://youtube.com" target= "_blank" rel="noopener" aria-label="Visit our Youtube page (opens in a new tab)"><i class="fab fa-youtube-square"></i></i></a>
-            </li>
-            <li>
-                <a href="https://instagram.com" target= "_blank" rel="noopener" aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram-square"></i></i></a>
-            </li>
-        </ul>
-    </footer>
-
-<!-- font awesome script -->
-<script src="https://kit.fontawesome.com/d60812c6c8.js" crossorigin="anonymous"></script>
-
-   
-
-
-
-
-
-
-
-
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>  
-</body>
-</html>
+            <ul class="social-networks">
+                <li>
+                    <a href="https://facebook.com" target= "_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
+                </li>
+                <li>
+                    <a href="https://twitter.com" target= "_blank" rel="noopener" aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter-square"></i></i></a>
+                </li>
+                <li>
+                    <a href="https://youtube.com" target= "_blank" rel="noopener" aria-label="Visit our Youtube page (opens in a new tab)"><i class="fab fa-youtube-square"></i></i></a>
+                </li>
+                <li>
+                    <a href="https://instagram.com" target= "_blank" rel="noopener" aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram-square"></i></i></a>
+                </li>
+            </ul>
+        </footer>
+    <!-- font awesome script -->
+    <script src="https://kit.fontawesome.com/d60812c6c8.js" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>  
+    </div>
+    </body>
+    </html>

@@ -1,108 +1,145 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Welding For Novices
 
-Welcome Zarmine Samuel,
+For my first milestone project I have created an introduction to welding website. This is an informative site to provide helpful information. 
+The website can be found here
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Who is this website for?
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+This is a website created to help people who are starting out in welding. It has been designed to provide information and useful tools to help anyone new to the practice that needs guidance on where to begin and if it is right for them. 
+Who made this site?
+I made this site as I have a background in welding and started out the same way by researching online to find out more. I wanted to create a site that I would have found helpful during the early stages of my interest in welding. 
 
-## Gitpod Reminders
+## What does it do?
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+This site was designed to provide a gateway in to welding for a beginner without overwhelming them with too much information. It was created to be an informative site with links to equipment and a weekly newsletter to help someone new to this practice get a feel and understanding for it. To engage with the different types and to help them figure out which type of welding they want to go in to. 
 
-`python3 -m http.server`
+## Features
 
-A blue button should appear to click: _Make Public_,
+### Navigation
 
-Another blue button should appear to click: _Open Browser_.
+The Logo can be found on the top left of the page which when clicked brings you to the landing page (About)
+The other navigation links to the top right of the page are: About, Welding Equipment and Sign Up which link to the different sections.
+The navigation colors were created to contrast with the background image but also to follow the theme of welding. 
+The navigation clearly shows the logo and who the page is aimed at and the menu list makes the different sections of information easy to find. 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### The Home Section 
 
-A blue button should appear to click: _Make Public_,
+The About section gives an introduction to the site and its purpose. 
+Outlines why the site is helpful and who it is for.
+Provides information on the three main types of welding and the titles on the cards link to further information if the user wants to know more. 
 
-Another blue button should appear to click: _Open Browser_.
+### The Welding Equipment section
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+This section has an introduction that briefly explains why PPE (personal protective equipment) is important in welding.
+There is also a brief explanation on choosing the right welding machine.
+There are links in the titles to advise on the tools and to provide options on what has been rated the best, prices and what to buy.
 
-To log into the Heroku toolbelt CLI:
+### The Sign Up section
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+The Sign Up section has a brief introduction to explain the weekly newsletter.
+There is a form to collect details, first name, last name, email and which type of welding.
+The sign up form is valuable to the user as it gives them the option to sign up to the weekly newsletter. 
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+## UX 5 Planes
 
-------
+### Strategy Plane
 
-## Release History
+The website was made to help people who were curious about welding or beginners to the practice with useful information about what welding is, why it can be a great career or hobbie and the best way to get started. The main objective is to provide a site that helps introduce welding in an informative way without overwhelming a beginner. 
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### Scope Plane
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+Three different pages/sections: About, Welding Equipment and Sign up.
+Pages to have clickable links to useful more in-depth information and equipment
+Sign up form to a weekly newsletter
+Social Media Links for more engagement. 
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+### Structure Plane
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+The website consists of three pages/sections which have a recurring header and footer on all pages.
+Navigation and Footer
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+Both feature on every page to keep a consistent design and to help the user navigate through the pages needed and to have access to external content. 
+Navigation consists of the logo on the right and the menu on the right with three sections: Home, Welding Equipment and Sign Up.
+Footer consists of four social media icons that are links to the sites: Facebook, Twitter, Youtube and Instagram. 
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+#### Home Page
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+The home page consists of the navigation and footer along with an introduction to the site explaining what it is about. This leads in to three information cards at the bottom that provide information and clickable links for: MAG, MIG and TIG welding.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+#### Welding Equipment Page
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+This page is providing useful links to the customer advising what equipment to buy or look in to as a beginner and some of the most recommended and reasonably priced. It briefly explains the need for PPE (personal protective equipment) and the draw backs with certain types of welding.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+#### Sign Up Page
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+Features a brief explanation for the user about what they are signing up for. Explains what to expect in the weekly newsletter and has a sign up form for the user to enter their details and select which type of welding they are interested in. 
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### Skeleton Plane
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+The wireframes were done on paper, please see the images below:
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+The design has been tweaked to be more responsive to mobile display and to allow the background image to be more visible behind the content. 
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+### Surface Plane
 
-------
+#### Fonts
+I searched online to find which fonts compliment each other and would look good on the website, I used the link below:
+https://www.creatopy.com/blog/google-font-pairings/
+The two fonts I selected to use were 
+Karla
+Rubik
+The font codes used were from Google fonts.
 
-## FAQ about the uptime script
+#### Colors
 
-**Why have you added this script?**
+The color used for the logo and content background is #A44200 and rgba(164, 66, 0, 0.6) for opaque. – Rusty orange
+The color used for the background if the image does not load is #001219 – Black pearl
+The color used for the content text links and buttons is #e09f3e – Lighter orange
+The color used for the general text and social media icons is #fff - white
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+I used https://coolors.co/ to help generate a palette for my website as I wanted very specific colors to follow the theme of welding. 
 
-**How will this affect me?**
+## Testing
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+The website has been tested on different browsers: Chrome, Edge, Firefox and IE. 
+The website is responsive it functions on all screen sizes and the content adjusts as needed.
+The website form has been tested and the fields that require entry have to be filled before it can progress.
+I have asked others to review the content and can confirm it is all readable and accessible.
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+## Issues 
+There has been issues with pictures fitting in to the display cards and being uniform. I used https://www.foto.fit/ to adjust the pictures into better sizes to fit in to the card containers.
+My original navigation menu was not responsive to smaller screens so I changed it to a navigation bar that worked on smaller screens.
+When looking for pictures for welding overalls, there were none available on any of the free photo stock sites so I had to use one of myself. 
+Validator Testing
+HTML
+No errors were found when code was put through the official W3C validator.
+CSS
+No errors were found when code was put through the official Jigsaw validator.
+Accessibility
+I used Lighthouse to confirm my website was accessible and user friendly by having contrasting colors, an easy-to-read layout and the information order that made sense, please see below.
+Deployment
+I followed the steps below to deploy my website on GitHub:
+Go in to Github repository and click on “Settings”
+Find the “Source” section and select “Master Branch”
+Once “Master Branch” has been selected, the website is now published with link provided.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+## Resources
 
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+Slack – Used for general queries and help.
+Social media links/icons were taken from the Love Running project.
+https://getbootstrap.com/ - Content cards
+https://www.foto.fit/ - Used to help optimise images
+https://weldingheadquarters.com/ - Links on cards to provide more information on welding
+https://www.bestadvisers.co.uk/welding-helmets - Links to welding helmets
+https://kit.honestjohn.co.uk/top-tens/top-10-welding-gloves/ - Links to welding gloves
+https://weldinginsider.com/best-welding-boots/ - Links to welding boots
+https://active-workwear.co.uk/collections/boilersuits-onepieces - Links to welding overalls
+https://toolsblog.co.uk/best-stick-welder-reviews/ - links to MAG welders
+https://www.bestadvisers.co.uk/mig-welder - Links to MIG welders
+https://besten.co.uk/tig-welder/ - Links to TIG welders
+https://www.pexels.com/ - photos
+https://pixabay.com/ - photos 
+https://unsplash.com/ - photos
+https://www.creatopy.com/blog/google-font-pairings/ - Font inspiration 
+https://coolors.co/palettes - Color inspiration 
+https://fonts.google.com/ - Fonts 
