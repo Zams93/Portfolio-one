@@ -86,14 +86,14 @@ a:hover {
     margin-top: 5%;
     margin-bottom: 5%;
 }
-#welding-helmet, #welding-gloves, #welding-boots, #welding-overalls {
+#welding-ppe {
     background-color: #A44200;
     max-width: 100%;
     height: auto;
     text-align: center;
     display: inline-block;
    }
-#mag-welder, #mig-welder, #tig-welder {
+#welding-equipment {
     background-color: #A44200;
     text-align: center;
     display: inline-block;
@@ -180,3 +180,105 @@ footer
   background-color: black !important;
 }
 /* Media Queries*/
+
+/* For small screen sizes 480px and down */
+@media screen and (max-width: 480px) {
+
+    #about-section {
+        font-size: 50%;
+    }
+
+    .mag-img {
+        margin: auto;
+        font-size: x-small;
+    }
+
+    #welding-equipment-about {
+        font-size: small;
+    }
+
+    h1,
+    h2,
+    h3 {
+        font-size: small;
+    }
+
+    #ppe-about,
+    #welding-machine-about {
+        font-size: small;
+    }
+
+    #welding-ppe,
+    #welding-equipment {
+        margin: auto;
+        font-size: x-small;
+    }
+
+    #newsletter-about {
+        font-size: small;
+    }
+
+    .signup-form {
+        margin: 0 10% 0 0;
+    }
+
+    .form-section {
+        font-size: small;
+        height: 500px;
+        margin-top: 50px;
+    }
+
+    .social-networks {
+        font-size: 50%;
+    }
+}
+
+/* For medium screen sizes 768px and down */
+@media screen and (max-width: 768px) {
+    #about-section {
+        font-size: medium;
+    }
+
+    .mag-img {
+        font-size: medium;
+        margin: auto;
+
+    }
+
+    #welding-equipment-about {
+        font-size: medium;
+    }
+
+    h2,
+    h3 {
+        font-size: medium;
+    }
+
+    #ppe-about,
+    #welding-machine-about {
+        font-size: medium;
+    }
+
+    #welding-ppe,
+    #welding-equipment {
+        font-size: medium;
+    }
+
+    #newsletter-about {
+        font-size: medium;
+    }
+
+    .signup-form {
+        margin: 50px 10% 0 0;
+    }
+
+    .form-section {
+        font-size: medium;
+        height: 600px;
+    }
+
+    .social-networks {
+        font-size: 80%;
+    }
+
+}

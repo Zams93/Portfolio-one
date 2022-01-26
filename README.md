@@ -93,9 +93,13 @@ The design has been tweaked to be more responsive to mobile display and to allow
 #### Fonts
 I searched online to find which fonts compliment each other and would look good on the website, I used the link below:
 https://www.creatopy.com/blog/google-font-pairings/
+
 The two fonts I selected to use are: 
+
 Karla
+
 Rubik
+
 The font codes used were from Google fonts.
 
 #### Colors
