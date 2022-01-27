@@ -66,7 +66,8 @@ The website was made to help people who were curious about welding or beginners 
 ### Structure Plane
 
 The website consists of three pages/sections which have a recurring header and footer on all pages.
-Navigation and Footer
+
+#### Navigation and Footer
 
 Both feature on every page to keep a consistent design and to help the user navigate through the pages needed and to have access to external content. 
 Navigation consists of the logo on the right and the menu on the right with three sections: Home, Welding Equipment and Sign Up.
