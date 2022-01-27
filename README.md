@@ -1,7 +1,7 @@
 # Welding For Novices
 
 For my first milestone project I have created an introduction to welding website, this is an informative site to provide helpful information for beginners. 
-The website can be found [here].(https://zams93.github.io/Portfolio-one/)
+The website can be found [here.](https://zams93.github.io/Portfolio-one/)
 
 ![website on multiple displays](assets/images/multi-device-display.png)
 
@@ -30,7 +30,7 @@ This site was designed to provide a gateway in to welding for a beginner without
 
 ![Screenshot of homepage](assets/images/home-screenshot.png)
 
-* The About section gives an introduction to the site and its purpose. 
+* The Home section gives an introduction to the site and its purpose. 
 * Outlines why the site is helpful and who it is for.
 * Provides information on the three main types of welding and the titles on the cards link to further information if the user wants to know more. 
 
@@ -131,14 +131,21 @@ I used https://coolors.co/ to help generate a palette for my website as I wanted
 * There has been issues with pictures fitting in to the display cards and being uniform. I used https://www.foto.fit/ to adjust the pictures into better sizes to fit in to the card containers.
 * My original navigation menu was not responsive to smaller screens so I changed it to a navigation bar that worked on smaller screens.
 * When looking for pictures for welding overalls, there were none available on any of the free photo stock sites so I had to use one of myself. 
+* The original design had to be changed from horizontal display cards to vertical as horizontal covered too much of the background image. 
+* The original navigation had to be changed as it was not responsive when set to smaller screens. 
 
 ## Validator Testing
 
 * HTML
+
 No errors were found when code was put through the official W3C validator.
+
 * CSS
+
 No errors were found when code was put through the official Jigsaw validator.
+
 * Accessibility
+
 I used Lighthouse to confirm my website was accessible and user friendly by having contrasting colors, an easy-to-read layout and the information order that made sense, please see below:
 
 ![Screenshot of lighthouse results](assets/images/lighthouse-screenshot1.PNG)
@@ -157,7 +164,7 @@ Slack – Used for general queries and help.
 
 Social media links/icons were taken from the Love Running project.
 
-https://getbootstrap.com/ - Content cards
+https://getbootstrap.com/ - Content cards and Nav bar
 
 https://www.foto.fit/ - Used to help optimise images
 
