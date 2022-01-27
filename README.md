@@ -79,7 +79,7 @@ The home page consists of the navigation and footer along with an introduction t
 
 #### Welding Equipment Page
 
-This page is providing useful links to the user advising what equipment to buy or look in to as a beginner and some of the most recommended and reasonably priced. It briefly explains the need for PPE (personal protective equipment) and the draw backs with certain types of welding.
+This page provides useful links to the user advising what equipment to buy or look in to as a beginner and some of the most recommended and reasonably priced. It briefly explains the need for PPE (personal protective equipment) and the draw backs with certain types of welding.
 
 #### Sign Up Page
 
@@ -109,11 +109,12 @@ Karla
 
 Rubik
 
+I chose to use the fonts above as they give the website a fun but professional feel.
 The font codes used were from Google fonts.
 
 #### Colors
 
-* The color used for the logo and content background is #A44200 and rgba(164, 66, 0, 0.6) for opaque. – Rusty orange
+* The color used for the logo and content background is #A44200 and rgba(164, 66, 0, 0.6) for opaque – Rusty orange
 * The color used for the background if the image does not load is #001219 – Black pearl
 * The color used for the content text links and buttons is #e09f3e – Lighter orange
 * The color used for the general text and social media icons is #fff - white
@@ -130,8 +131,7 @@ I used https://coolors.co/ to help generate a palette for my website as I wanted
 ## Issues 
 
 * There has been issues with pictures fitting in to the display cards and being uniform. I used https://www.foto.fit/ to adjust the pictures into better sizes to fit in to the card containers.
-* My original navigation menu was not responsive to smaller screens so I changed it to a navigation bar that worked on smaller screens.
-* When looking for pictures for welding overalls, there were none available on any of the free photo stock sites so I had to use one of myself. 
+* When looking for pictures of welding overalls, there were none available on any of the free photo stock sites so I used one of myself in overalls.
 * The original design had to be changed from horizontal display cards to vertical as horizontal covered too much of the background image. 
 * The original navigation had to be changed as it was not responsive when set to smaller screens. 
 
