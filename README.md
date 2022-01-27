@@ -28,17 +28,23 @@ This site was designed to provide a gateway in to welding for a beginner without
 
 ### The Home Section 
 
+![Screenshot of homepage](assets/images/home-screenshot.png)
+
 * The About section gives an introduction to the site and its purpose. 
 * Outlines why the site is helpful and who it is for.
 * Provides information on the three main types of welding and the titles on the cards link to further information if the user wants to know more. 
 
 ### The Welding Equipment section
 
+![Screenshot of equipment page](assets/images/tools-screenshot.png)
+
 * This section has an introduction that briefly explains why PPE (personal protective equipment) is important in welding.
 * There is also a brief explanation on choosing the right welding machine.
 * There are links in the titles to advise on the tools and to provide options on what has been rated the best, prices and what to buy.
 
 ### The Sign Up section
+
+![Screenshot of Sign-Up page](assets/images/signup-screenshot.png)
 
 * The Sign Up section has a brief introduction to explain the weekly newsletter.
 * There is a form to collect details, first name, last name, email and which type of welding.
