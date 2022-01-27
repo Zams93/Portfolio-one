@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@300&family=Rubik:wght@500&display=swap');
+
 body {
     font-family: Karla, sans-serif;
     background-image: url(../images/final-welding-background.jpeg);
@@ -8,6 +9,7 @@ body {
     background-size: cover;
     color: white;
 }
+
 /* headings and logo */
 h1 {
     font-family: Rubik, sans-serif;
@@ -15,38 +17,47 @@ h1 {
     letter-spacing: 4px;
     color: #A44200;
 }
+
 .logo-text {
     color: #A44200;
-}  
+}
 
 a {
     color: #e09f3e;
 }
+
 /* navigation links */
 #menu {
     font-size: 150%;
     font-weight: bold;
     letter-spacing: 4px;
 }
-#menu, #logo {
+
+#menu,
+#logo {
     line-height: 75px;
 }
+
 #menu li {
     float: right;
     list-style-type: none;
     margin-right: 30px;
     color: #A44200;
 }
+
 #menu a {
     text-decoration: none;
     color: inherit;
 }
+
 a:hover {
     border-bottom: 1px solid white;
 }
-.active{
+
+.active {
     border-bottom: 1px solid white;
 }
+
 /*About section*/
 #about-section {
     background-color: rgba(164, 66, 0, 0.6);
@@ -68,7 +79,7 @@ a:hover {
 }
 
 .content-boxes {
-/* padding: 30px; */
+    /* padding: 30px; */
 }
 
 /* welding equipment */
@@ -79,8 +90,9 @@ a:hover {
     height: 300px;
     object-fit: cover;
     object-position: top;
-    }
-#welding-equipment-about  {
+}
+
+#welding-equipment-about {
     background-color: rgba(164, 66, 0, 0.6);
     padding: 10px;
     text-align: justify;
@@ -88,39 +100,51 @@ a:hover {
     margin-top: 5%;
     margin-bottom: 5%;
 }
-#welding-helmet, #welding-gloves, #welding-boots, #welding-overalls{
+
+#welding-helmet,
+#welding-gloves,
+#welding-boots,
+#welding-overalls {
     background-color: #A44200;
     max-width: 100%;
     height: auto;
     text-align: center;
     display: inline-block;
-   }
-#welding-mag, #welding-mig, #welding-tig {
+}
+
+#welding-mag,
+#welding-mig,
+#welding-tig {
     background-color: #A44200;
     text-align: center;
     display: inline-block;
 }
-#ppe-about, #welding-machine-about{
+
+#ppe-about,
+#welding-machine-about {
     font-size: 20px;
     margin-top: 1%;
     margin-bottom: 3%;
     text-align: left;
 }
+
 /* footer */
-footer
-.social-networks {
+footer .social-networks {
     text-align: center;
 }
-.social-networks > li {
+
+.social-networks>li {
     display: inline;
 }
+
 .social-networks i {
     font-size: 220%;
     margin: 1%;
     padding: 5%;
     color: white;
 }
-  /* Form */
+
+/* Form */
 #newsletter-about {
     background-color: rgba(164, 66, 0, 0.6);
     padding: 10px;
@@ -130,25 +154,29 @@ footer
     margin-top: 5%;
     margin-left: 3%;
 }
-  .form-section {
+
+.form-section {
     clear: left;
     height: 700px;
     font-size: 150%;
 }
+
 .signup-form {
     margin: 70px 10% 0 0;
     color: #fff;
-    background-color:  rgba(164, 66, 0, 0.6);
+    background-color: rgba(164, 66, 0, 0.6);
     position: absolute;
     max-width: 600px;
     left: 25%;
     padding: 30px;
     margin-bottom: 20%;
 }
-.signup-form > h2 {
+
+.signup-form>h2 {
     color: #fafafa;
     margin-bottom: 20px;
 }
+
 .text-input {
     background: transparent;
     color: #fafafa;
@@ -158,9 +186,11 @@ footer
     border: 1px solid #fafafa;
     border-radius: 2px;
 }
+
 .text-input:hover {
     border-color: #e09f3e;
 }
+
 .join-button {
     margin-top: 20px;
     border-radius: 2px;
@@ -171,51 +201,65 @@ footer
     color: #fafafa;
     display: block;
 }
+
 .join-button:hover {
     background-color: #fafafa;
-    color:  #e09f3e;
+    color: #e09f3e;
 }
+
 .text-custom {
-  color: #A44200 !important;
+    color: #A44200 !important;
 }
+
 .bg-dark {
-  background-color: black !important;
+    background-color: black !important;
 }
+
 /* Media Queries*/
 
 /* For medium screen sizes 768px and down */
 @media screen and (max-width: 768px) {
     #about-section {
-        font-size: medium;
+        font-size: 15px;
     }
 
     .mag-img {
-        font-size: medium;
+        font-size: 15px;
         margin: auto;
 
     }
 
     #welding-equipment-about {
-        font-size: medium;
+        font-size: 15px;
     }
 
     h2,
     h3 {
-        font-size: medium;
+        font-size: 15px;
     }
 
     #ppe-about,
     #welding-machine-about {
-        font-size: medium;
+        font-size: 15px;
     }
 
-    #welding-ppe,
-    #welding-equipment {
-        font-size: medium;
+    #welding-helmet,
+    #welding-gloves,
+    #welding-boots,
+    #welding-overalls {
+        margin: auto;
+        font-size: 15px;
+    }
+
+    #welding-mag,
+    #welding-mig,
+    #welding-tig {
+        margin: auto;
+        font-size: 15px;
     }
 
     #newsletter-about {
-        font-size: medium;
+        font-size: 15px;
     }
 
     .signup-form {
@@ -223,7 +267,7 @@ footer
     }
 
     .form-section {
-        font-size: medium;
+        font-size: 15px;
         height: 600px;
     }
 
@@ -237,37 +281,45 @@ footer
 @media screen and (max-width: 480px) {
 
     #about-section {
-        font-size: small;
+        font-size: 13px;
     }
 
     .mag-img {
         margin: auto;
-        font-size: x-small;
+        font-size: 13px;
     }
 
     #welding-equipment-about {
-        font-size: small;
+        font-size: 13px;
     }
 
     h1,
     h2,
     h3 {
-        font-size: small;
+        font-size: 13px;
     }
 
     #ppe-about,
     #welding-machine-about {
-        font-size: small;
+        font-size: 13px;
     }
 
-    #welding-ppe,
-    #welding-equipment {
+    #welding-helmet,
+    #welding-gloves,
+    #welding-boots,
+    #welding-overalls {
         margin: auto;
-        font-size: x-small;
+        font-size: 13px;
+    }
+
+    #welding-mag, 
+    #welding-mig, 
+    #welding-tig {
+        font-size: 13px;
     }
 
     #newsletter-about {
-        font-size: small;
+        font-size: 13px;
     }
 
     .signup-form {
@@ -275,7 +327,7 @@ footer
     }
 
     .form-section {
-        font-size: small;
+        font-size: 13px;
         height: 500px;
         margin-top: 50px;
     }
@@ -283,4 +335,5 @@ footer
     .social-networks {
         font-size: 50%;
     }
-}
+
+}   
