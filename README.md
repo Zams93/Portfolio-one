@@ -139,7 +139,9 @@ No errors were found when code was put through the official W3C validator.
 * CSS
 No errors were found when code was put through the official Jigsaw validator.
 * Accessibility
-I used Lighthouse to confirm my website was accessible and user friendly by having contrasting colors, an easy-to-read layout and the information order that made sense, please see below.
+I used Lighthouse to confirm my website was accessible and user friendly by having contrasting colors, an easy-to-read layout and the information order that made sense, please see below:
+
+![Screenshot of lighthouse results](assets/images/lighthouse-screenshot1.PNG)
 
 ## Deployment
 
