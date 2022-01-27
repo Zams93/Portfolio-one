@@ -57,6 +57,7 @@ a:hover {
 }
 
 /* welding cards */
+
 .mag-img {
     background-color: #A44200;
     position: relative;
@@ -87,14 +88,14 @@ a:hover {
     margin-top: 5%;
     margin-bottom: 5%;
 }
-#welding-ppe {
+#welding-helmet, #welding-gloves, #welding-boots, #welding-overalls{
     background-color: #A44200;
     max-width: 100%;
     height: auto;
     text-align: center;
     display: inline-block;
    }
-#welding-equipment {
+#welding-mag, #welding-mig, #welding-tig {
     background-color: #A44200;
     text-align: center;
     display: inline-block;
@@ -131,16 +132,16 @@ footer
 }
   .form-section {
     clear: left;
-    height: 900px;
+    height: 700px;
     font-size: 150%;
 }
 .signup-form {
-    margin: 150px 10% 0 0;
+    margin: 70px 10% 0 0;
     color: #fff;
     background-color:  rgba(164, 66, 0, 0.6);
     position: absolute;
     max-width: 600px;
-    left: 40%;
+    left: 25%;
     padding: 30px;
     margin-bottom: 20%;
 }
