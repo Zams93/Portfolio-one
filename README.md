@@ -1,7 +1,9 @@
 # Welding For Novices
 
-For my first milestone project I have created an introduction to welding website. This is an informative site to provide helpful information. 
-The website can be found here
+For my first milestone project I have created an introduction to welding website, this is an informative site to provide helpful information for beginners. 
+The website can be found [here].(https://zams93.github.io/Portfolio-one/)
+
+![website on multiple displays](assets/images/multi-device-display.png)
 
 ## Who is this website for?
 

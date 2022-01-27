@@ -15,14 +15,10 @@ h1 {
     letter-spacing: 4px;
     color: #A44200;
 }
-  #logo {
-    font-size: 280%;
-    margin-left: 30px;
+.logo-text {
     color: #A44200;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    }
+}  
+
 a {
     color: #e09f3e;
 }
@@ -58,8 +54,8 @@ a:hover {
     text-align: justify;
     font-size: x-large;
     margin-top: 5%;
-    margin-left: 3%;
 }
+
 /* welding cards */
 .mag-img {
     background-color: #A44200;
@@ -69,6 +65,11 @@ a:hover {
     padding: 10px;
     margin-top: 15%;
 }
+
+.content-boxes {
+/* padding: 30px; */
+}
+
 /* welding equipment */
 .card-img-top {
     width: 100%;
@@ -181,58 +182,6 @@ footer
 }
 /* Media Queries*/
 
-/* For small screen sizes 480px and down */
-@media screen and (max-width: 480px) {
-
-    #about-section {
-        font-size: 50%;
-    }
-
-    .mag-img {
-        margin: auto;
-        font-size: x-small;
-    }
-
-    #welding-equipment-about {
-        font-size: small;
-    }
-
-    h1,
-    h2,
-    h3 {
-        font-size: small;
-    }
-
-    #ppe-about,
-    #welding-machine-about {
-        font-size: small;
-    }
-
-    #welding-ppe,
-    #welding-equipment {
-        margin: auto;
-        font-size: x-small;
-    }
-
-    #newsletter-about {
-        font-size: small;
-    }
-
-    .signup-form {
-        margin: 0 10% 0 0;
-    }
-
-    .form-section {
-        font-size: small;
-        height: 500px;
-        margin-top: 50px;
-    }
-
-    .social-networks {
-        font-size: 50%;
-    }
-}
-
 /* For medium screen sizes 768px and down */
 @media screen and (max-width: 768px) {
     #about-section {
@@ -281,4 +230,56 @@ footer
         font-size: 80%;
     }
 
+}
+
+/* For small screen sizes 480px and down */
+@media screen and (max-width: 480px) {
+
+    #about-section {
+        font-size: small;
+    }
+
+    .mag-img {
+        margin: auto;
+        font-size: x-small;
+    }
+
+    #welding-equipment-about {
+        font-size: small;
+    }
+
+    h1,
+    h2,
+    h3 {
+        font-size: small;
+    }
+
+    #ppe-about,
+    #welding-machine-about {
+        font-size: small;
+    }
+
+    #welding-ppe,
+    #welding-equipment {
+        margin: auto;
+        font-size: x-small;
+    }
+
+    #newsletter-about {
+        font-size: small;
+    }
+
+    .signup-form {
+        margin: 0 10% 0 0;
+    }
+
+    .form-section {
+        font-size: small;
+        height: 500px;
+        margin-top: 50px;
+    }
+
+    .social-networks {
+        font-size: 50%;
+    }
 }
